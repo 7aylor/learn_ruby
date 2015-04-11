@@ -27,6 +27,7 @@ def power(base, exponent)
   base ** exponent
 end
 
+#finds the factorial of a given number
 def factorial(num)
   total = num
   if(num == 1 || num == 0)
